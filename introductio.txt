@@ -1,0 +1,75 @@
+Fullstack:It has 2 parts:
+
+Front End:It is the client side interface where the user interact
+
+Back End:It is the server side were the user requested data is sent to the backend and the requested data is displayed in the frontend
+
+Front End:
+
+* It is the user interface where the user interact with the website
+* It includes html,css,javascript..etc
+* It should be attractive to the user to interact with It
+
+    HTML(Hyper Text Markup Language)
+    * It stands for hyper text markup language
+    * It is the structure of the  website
+    * It acts as a outline or blue print for creation of the website
+
+    css(Cascading style sheet)
+    * It stands for cascading style sheet
+    * It is used for designing websites
+    * It is used to add color,font,background image etc to the website
+    * It is used to make the website attractive to the user
+    * It is used to make the website responsive to the user
+    
+    Js(javascript)
+    * It is used to provide functions to the html elements
+    * It is used to make the website interactive to the user
+    * It is used to make the website dynamic to the user
+
+Back End:
+* It has the server
+* It includes databases
+
+    Database
+
+    * The databases are used to store the data in the database 
+    * The data stored in the database can be queried to retrieve the data 
+    * The data can be updated,inserted,deleted from the database
+    * The back end is used to handle the request from the front end
+    * It is used to provide the data to the front end
+        ex:My SQL,Mongo DB
+
+    server
+
+    * It is used to hosts the website
+    * It provides security to the user
+    * It provides the data to the user
+    * It takes the input from the user and send it to the backend
+    * It is used to handle the request from the user
+    * It is used to provide requested data to the user
+        ex:Apache server
+        
+
+    Api
+   
+    * It stands for application programming interface
+    * we can use api's to interact with user in effective way 
+    * we can use api fetch the real time data 
+    * currently we are using api's for building websites to make it more effective 
+    
+
+    
+
+
+
+ 
+
+
+
+
+
+
+    
+
+
