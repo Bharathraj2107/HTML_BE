@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <style>
+    
+        .contact{
+            background-color: red;
+            padding:10px;
+            margin:20px;
+            border-radius:20px;
+            cursor: pointer;
+        }
+        .contact a{
+            text-decoration: none;
+            color:white;
+        }
+        .contact:hover{
+            background-color:limegreen;
+            width:120px;
+            transition:0.1s;
+        }
+        .aboutus{
+            background-color:green;
+            padding:10px; 
+            margin:20px;
+            border-radius:20px;
+            cursor: pointer;
+        }
+        .aboutus a{
+            text-decoration: none;
+            color:white;
+        }
+        .aboutus:hover{
+            background-color:limegreen;
+            width:120px;
+            transition:0.1s;
+        }
+        body{
+            background-color:rgb(98, 156, 194);
+        }
+        .pdf{
+            background-color:blue;
+            padding:10px;
+            margin:20px;
+            border-radius:20px;
+            cursor: pointer;
+        }
+        .pdf a{
+            text-decoration: none;
+            color:white;
+    
+        }
+        .pdf:hover{
+            background-color:limegreen;
+            width:110px;
+            transition:0.1s;
+        }
+        .dimg{
+            background-color:yellow;
+            padding:10px;
+            border-radius:20px;
+        
+        }
+        .dimg a{
+            text-decoration: none;
+            color:black;
+        }
+        .dimg:hover{
+            background-color:limegreen;
+            width:100px;
+            transition:0.1s;
+        }
+        #img{
+            margin:70px;
+            
+        }
+    
+        .adi{
+            background-color:purple;
+            padding:10px;
+            margin:20px;
+            border-radius:20px;
+            cursor: pointer;
+        }
+        .adi a{
+            text-decoration: none;
+            color:white;
+
+        }
+        .adi:hover{
+            background-color:limegreen;
+            width:120px;
+            transition:0.1s;
+        }
+        .container {
+        width: 100%;
+        height: 100vh;
+        background-color:blueviolet;
+        }
+        .circle1{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: rgb(235, 13, 139);
+        filter: blur(90px);
+        }
+        .circle2{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: rgb(13, 235, 31);
+        filter: blur(95px); 
+        margin-left:100px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Home Page</h1>
+    </center>
+ <button class="contact"><a href="./contact.html" target="_blank">Contact Us</a></button> 
+ <button class="aboutus"><a href="./aboutus.html" target="=_blank">About Us</a></button>
+ <button class="pdf"><a href="./cheatsheet-a5.pdf" download>Download Cheatsheet</a></button>
+ <button class="dimg"><a href="./brand-logo.cc6e3cf088a8fd3005b1.jpg" download>Download Image</a></button>
+ <button class="adi"><a href="./example_audio.mp3" download>Download Audio</a></button>
+
+ <img id="img"src="brand-logo.cc6e3cf088a8fd3005b1.jpg" alt="logo">
+ <div class="conatiner">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+</div>
+</body>
+</html>
