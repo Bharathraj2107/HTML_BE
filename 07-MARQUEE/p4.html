@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <center>
+            <h1>MARQUEE TAG  SCROLLAMOUNT ATTRIBUTE</h1>
+        </center>
+        <hr>
+        <marquee scrollamount="1" bgcolor="red"id="Text">This is a alternate tag</marquee><!--It is least speed bcoz 1-->
+        <br><br>
+        <marquee scrollamount="20" bgcolor="blue">This is a scroll tag</marquee><!--It goes from right-->
+        <br><br>
+        <marquee scrollamount="10" bgcolor="green" height="100">This is a slide tag</marquee><!--It goes from bottom  to top-->
+        <marquee scrollamount="5" bgcolor="yellow" height="100">This is a slide tag</marquee><!--It goes from top to bottom  -->
+    <h2>MARQUEE TAG Javascript code</h2>
+    <script>
+        document.getElementById("Text").onmouseover=function(){
+            document.getElementById("Text").stop();
+        }
+        document.getElementById("Text").onmouseleave=function(){
+            document.getElementById("Text").start();
+        }
+    </script>
+    </body>
+</html>
