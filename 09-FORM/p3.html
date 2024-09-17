@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body>
+        <center>
+            <h1>HTML SIMPLE FORM..!</h1>
+        </center>
+        <hr>
+        <form autocomplete="off"><!--For the previous filled data not to be visible we use this autocomplete off-->
+            <label for="firstName"></label>
+            <input type="text" placeholder="firstName" name="firstName" id="firstName"required minlength="5" required maxlength="20" value="HTML" readonly><!--here for default value we use value some value . 2)readonly it displays the content only for read purpose not to write or update -->
+            <label for="middleName"></label>
+            <input type="text"placeholder="middleName" name="middleName" id="middleName" required><!--here required means we have to compulsory fill the data-->
+            <label for="LastName"></label>
+            <input type="text"placeholder="LastName" name="LastName" id="LastName" required>
+
+            <button type="button">BUTTON</button>
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+        </form>
+    </body>
+</html>

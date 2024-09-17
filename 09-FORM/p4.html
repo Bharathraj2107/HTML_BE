@@ -1,0 +1,44 @@
+<html></html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body>
+        <center>
+            <h1>HTML SIMPLE FORM..!</h1>
+        </center>
+        <hr>
+        <form autocomplete="off" onsubmit="FormValue()" onreset="alert('value reseted')" name="formname"><!--For the previous filled data not to be visible we use this autocomplete off-->
+            <fieldset><!--for margin/border we use fieldset-->
+            <legend>First Name</legend><!--we use legend for caption-->
+            <label for="firstName"></label>
+            <input type="text" placeholder="firstName" name="firstName" id="firstName"required minlength="5" required maxlength="20" value="HTML" readonly><!--here for default value we use value some value . 2)readonly it displays the content only for read purpose not to write or update -->
+            </fieldset>
+            <fieldset>
+            <legend>Middle Name</legend>
+            <label for="middleName"></label>
+            <input type="text"placeholder="middleName" name="middleName" id="middleName" required><!--here required means we have to compulsory fill the data .Id is used to identify uniquely the input  text box-->
+            </fieldset>
+            <fieldset>
+            <legend>Last Name</legend>
+            <label for="LastName"></label>
+            <input type="text"placeholder="LastName" name="LastName" id="LastName" required><!--here name is used to indicate for which text box the value is in the backend-->
+           </fieldset>
+           <fieldset>
+            <legend>Buttons</legend>
+            <button type="button" onclick="alert('button clicked')">BUTTON</button><!--on keyword is used for some event-->
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+           </fieldset><!--id is used to get the text box ->
+        </form><!--name is used to call the text box value-->
+        <script>
+            function FormValue(){
+            let firstName=document.formname.firstName.value;//select an element using name attribute 
+            let middleName=document.getElementById('middleName').value;//select an element using id attribute
+            let LastName=document.getElementsByName('LastName').value;//here formname is the name of the form ,firstname is the name of the first textinput  box
+            alert('First Text Box Value is'+firstName);
+            alert('Second Text Box Value is'+middleName);
+            alert('Third Text Box Value is'+LastName);
+            }
+        </script>
+    </body>
+</html>
